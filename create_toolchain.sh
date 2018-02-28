@@ -14,5 +14,5 @@ gsettings set org.gnome.desktop.lockdown disable-lock-screen 'true'
 gsettings set org.compiz.unityshell:/org/compiz/profiles/unity/plugins/unityshell/ launcher-capture-mouse false
 
 sudo cat ~/.bashrc | sed -e "s/#force_color_prompt=yes/force_color_prompt=yes/" > ~/temp
-mv temp .bashrc
+mv ~/temp ~/.bashrc
 
